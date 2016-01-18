@@ -1,0 +1,18 @@
+/* TEAM */
+
+	<role>: <name>
+	Contact: <email>
+	Twitter: <pseudo>
+	From: <city>
+
+/* THANKS */
+
+	Iceberg Boilerplate Author: Kevin Py
+	Twitter: @Kevin_Py
+	From: France	
+
+/* SITE */
+	Last update: <date>
+	Language: <language(s)>
+	Components: HTML5, CSS3, jQuery, LESS, Normalize
+	Softwares: <Software(s)>

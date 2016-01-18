@@ -1,0 +1,30 @@
+{
+  "name": "iceberg-bp",
+  "version": "0.0.1",
+  "description": "Front-End Boilerplate for your Web Projects",
+  "author": "Kevin Py",
+  "homepage": "https://github.com/KevinPy/Iceberg#readme",
+  "license": "CC-BY-SA-3.0",
+  "main": "https://github.com/KevinPy/Iceberg/www",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KevinPy/Iceberg.git"
+  },
+  "keywords": [
+    "framework",
+    "boilerplate",
+    "web",
+    "app",
+    "html",
+    "css",
+    "js",
+    "less",
+    "responsive",
+    "rwd",
+    "reset"
+  ],
+  "bugs": {
+    "url": "https://github.com/KevinPy/Iceberg/issues"
+  },
+  "engines": {}
+}
