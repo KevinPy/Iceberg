@@ -7,7 +7,9 @@ Iceberg is a boilerplate for start quickly your Web Projects, with the good foun
 **Website**: <http://kpy.me><br />
 **Iceberg Website**: <http://kpy.me/Projects/Iceberg>
 ***
-<br />
+#### Installation
+You can install directly on Github, or via Bower:
+`bower install iceberg-bp`
 #### Structure
 ```
 assets
