@@ -1,10 +1,6 @@
 {
   "name": "iceberg-bp",
-<<<<<<< HEAD
   "version": "0.0.2",
-=======
-  "version": "0.0.1",
->>>>>>> origin/master
   "description": "Front-End Boilerplate for your Web Projects",
   "author": "Kevin Py",
   "homepage": "https://github.com/KevinPy/Iceberg#readme",
@@ -25,12 +21,8 @@
     "less",
     "responsive",
     "rwd",
-<<<<<<< HEAD
     "reset",
     "flexo"
-=======
-    "reset"
->>>>>>> origin/master
   ],
   "bugs": {
     "url": "https://github.com/KevinPy/Iceberg/issues"

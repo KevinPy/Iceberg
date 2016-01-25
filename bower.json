@@ -1,18 +1,10 @@
 {
   "name": "iceberg-bp",
-<<<<<<< HEAD
   "version": "0.0.2",
   "authors": [
     "Kevin Py"
   ],
   "homepage": "https://kevinpy.com/Projects/Iceberg",
-=======
-  "version": "0.0.1",
-  "authors": [
-    "Kevin Py"
-  ],
-  "homepage": "http://kpy.me/Projects/Iceberg",
->>>>>>> origin/master
   "description": "Front-End Boilerplate for your Web Projects",
   "license": "CC-BY-SA-3.0",
   "main": "www",
@@ -27,12 +19,8 @@
     "less",
     "responsive",
     "rwd",
-<<<<<<< HEAD
     "reset",
     "flexo"
-=======
-    "reset"
->>>>>>> origin/master
   ],
   "ignore": [
     "**/.*",
