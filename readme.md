@@ -1,12 +1,21 @@
+<<<<<<< HEAD
 ![Iceberg logo](https://kevinpy.com/Projects/Iceberg/iceberg_logo.png)
+=======
+![Iceberg logo](http://kpy.me/Projects/Iceberg/iceberg_logo.png)
+>>>>>>> origin/master
 # Iceberg
 ### Front-End Boilerplate for your Web Projects
 Iceberg is a boilerplate for start quickly your Web Projects, with the good foundation.
 ***
 **Author**: *Kevin Py*<br />
+<<<<<<< HEAD
 **Website**: <https://kevinpy.com><br />
 **Iceberg Website**: <https://kevinpy.com/Projects/Iceberg><br />
 **Version**: 0.0.2
+=======
+**Website**: <http://kpy.me><br />
+**Iceberg Website**: <http://kpy.me/Projects/Iceberg>
+>>>>>>> origin/master
 ***
 #### Installation
 You can install directly on Github, or via Bower:
@@ -15,8 +24,12 @@ You can install directly on Github, or via Bower:
 ```
 assets
 	|- css
+<<<<<<< HEAD
 		|- flexo.css *
 		|- reset.css
+=======
+		|- normalize.css
+>>>>>>> origin/master
 		|- style.css
 		|- style.less
 	|- img
@@ -29,8 +42,11 @@ humans.txt
 index.html
 robots.txt
 ```
+<<<<<<< HEAD
 * : Flexo is a grid system based on `flex` property. It's an extension for Iceberg. For more informations, check the Github project here: https://github.com/KevinPy/Flexo
 
+=======
+>>>>>>> origin/master
 #### HTML Structure
 
 In the `index.html`, you are some meta tags. You do complete this meta tags:
@@ -65,6 +81,7 @@ The structure of CSS file is really simple. First, you are a summary for listed 
 ```
 1 - General
 	1.1 - Import
+<<<<<<< HEAD
 	1.2 - Style
 
 99 - Media Queries
@@ -72,6 +89,22 @@ The structure of CSS file is really simple. First, you are a summary for listed 
 	99.2 - 640px < 960px
 	99.3 - > 640px
 	99.99 - Print
+=======
+	1.2 - General
+	1.3 - Elements
+	1.4 - Header
+	1.5 - Content
+	1.6 - Footer
+
+2 - Pages
+	2.1 - Homepage
+
+99 - Media Queries
+	99.1 - > 960px
+	99.2 - 640px < 960px
+	99.3 - < 640px
+	99.4 - Print
+>>>>>>> origin/master
 ```
 
 And also the comment separator:
@@ -96,8 +129,51 @@ With this hack, you doesn't converted value between <b>px</b> and <b>rem</b>. Yo
 30rem => 300px
 ```
 
+<<<<<<< HEAD
 Iceberg use its own reset CSS, based on `normalize.css`.
 
 #### JS Structure
 
 JS file works, with the same summary that CSS file.
+=======
+Iceberg use the `CSS Reset` from <em>Normalize</em>, and the constraints for all element, with `*`:
+
+```
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+```
+
+#### JS Structure
+
+JS file works, with the same summary that CSS file.
+
+#### CSS Classes
+
+You can use the existing CSS Classes for your project. This is the full list:
+
+`.hide` - For hide elements<br />
+`.left` - Floating left<br />
+`.right` - Floating right<br />
+`.center` - For center elements<br />
+`.clearfix` - Using in parent Floating element
+
+##### Example
+
+```
+<div class="clearfix center">
+	<div class="left hide">
+		<p>Left hide element</p>
+	</div>
+	<div class="right">
+		<p>Right element</p>
+	</div>
+</div>
+```
+>>>>>>> origin/master

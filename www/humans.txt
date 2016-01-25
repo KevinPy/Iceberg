@@ -14,5 +14,9 @@
 /* SITE */
 	Last update: <date>
 	Language: <language(s)>
+<<<<<<< HEAD
 	Components: HTML5, CSS3, jQuery, LESS, Normalize, Iceberg, Flexo
+=======
+	Components: HTML5, CSS3, jQuery, LESS, Normalize
+>>>>>>> origin/master
 	Softwares: <Software(s)>
