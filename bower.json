@@ -1,0 +1,30 @@
+{
+  "name": "iceberg-bp",
+  "version": "0.0.2",
+  "authors": [
+    "Kevin Py"
+  ],
+  "homepage": "https://kevinpy.com/Projects/Iceberg",
+  "description": "Front-End Boilerplate for your Web Projects",
+  "license": "CC-BY-SA-3.0",
+  "main": "www",
+  "keywords": [
+    "framework",
+    "boilerplate",
+    "web",
+    "app",
+    "html",
+    "css",
+    "js",
+    "less",
+    "responsive",
+    "rwd",
+    "reset",
+    "flexo"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}
