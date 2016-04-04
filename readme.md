@@ -6,7 +6,7 @@ Iceberg is a boilerplate for start quickly your Web Projects, with the good foun
 **Author**: *Kevin Py*<br />
 **Website**: <https://kevinpy.com><br />
 **Iceberg Website**: <https://kevinpy.com/Projects/Iceberg><br />
-**Version**: 0.0.3
+**Version**: 0.2.0
 ***
 #### Installation
 You can install directly on Github, or via Bower:
