@@ -1,11 +1,11 @@
-![Iceberg logo](https://kevinpy.com/Projects/Iceberg/iceberg_logo.png)
+![Iceberg logo](http://kevinpy.com/Projects/Iceberg/iceberg_logo.png)
 # Iceberg
 ### Front-End Boilerplate for your Web Projects
 Iceberg is a boilerplate for start quickly your Web Projects, with the good foundation.
 ***
 **Author**: *Kevin Py*<br />
-**Website**: <https://kevinpy.com><br />
-**Iceberg Website**: <https://kevinpy.com/Projects/Iceberg><br />
+**Website**: <http://kevinpy.com><br />
+**Iceberg Website**: <http://kevinpy.com/Projects/Iceberg><br />
 **Version**: 0.2.0
 ***
 #### Installation
