@@ -3,12 +3,11 @@
   "version": "0.2.0",
   "description": "Front-End Boilerplate for your Web Projects",
   "author": "Kevin Py",
-  "homepage": "https://github.com/KevinPy/Iceberg#readme",
+  "homepage": "https://github.com/KevinPy/Iceberg",
   "license": "CC-BY-SA-3.0",
-  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/KevinPy/Iceberg.git"
+    "url": "git+https://github.com/KevinPy/Iceberg.git"
   },
   "keywords": [
     "framework",
@@ -27,5 +26,7 @@
   "bugs": {
     "url": "https://github.com/KevinPy/Iceberg/issues"
   },
-  "engines": {}
+  "devDependencies": {
+    "flexo-css": "^0.1.0"
+  }
 }
