@@ -3,16 +3,16 @@
 	<role>: <name>
 	Contact: <email>
 	Twitter: <pseudo>
-	From: <city>
+	Location: <city>
 
 /* THANKS */
 
-	Iceberg Boilerplate Author: Kevin Py
+	Iceberg Author: Kevin Py
 	Twitter: @Kevin_Py
-	From: France	
+	Location: France	
 
 /* SITE */
 	Last update: <date>
 	Language: <language(s)>
-	Components: HTML5, CSS3, jQuery, LESS, Normalize, Iceberg, Flexo
+	Components: HTML5, CSS3, jQuery, SASS, Normalize, Flexo, Gulp, NPM
 	Softwares: <Software(s)>

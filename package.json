@@ -1,32 +1,30 @@
 {
-  "name": "iceberg-bp",
-  "version": "0.2.0",
-  "description": "Front-End Boilerplate for your Web Projects",
-  "author": "Kevin Py",
-  "homepage": "https://github.com/KevinPy/Iceberg",
-  "license": "CC-BY-SA-3.0",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KevinPy/Iceberg.git"
-  },
-  "keywords": [
-    "framework",
-    "boilerplate",
-    "web",
-    "app",
-    "html",
-    "css",
-    "js",
-    "less",
-    "responsive",
-    "rwd",
-    "reset",
-    "flexo"
-  ],
-  "bugs": {
-    "url": "https://github.com/KevinPy/Iceberg/issues"
-  },
-  "devDependencies": {
-    "flexo-css": "^0.1.0"
-  }
+    "name": "iceberg-bp",
+    "version": "1.0.0",
+    "description": "Front-End Starter for your Web Projects",
+    "author": "Kevin Py",
+    "homepage": "https://github.com/KevinPy/Iceberg/",
+    "license": "CC-BY-SA-3.0",
+    "main": "gulpfile.js",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:KevinPy/Iceberg.git"
+    },
+    "bugs": {
+        "url": "https://github.com/KevinPy/Iceberg/issues"
+    },
+    "scripts": {
+        "start": "gulp"
+    },
+    "devDependencies": {
+        "browser-sync": "2.13.0",
+        "gulp": "3.9.1",
+        "gulp-consolidate": "0.2.0",
+        "gulp-iconfont": "8.0.1",
+        "gulp-sass": "2.3.2",
+        "gulp-htmlmin": "2.0.0",
+        "gulp-imagemin": "3.0.2",
+        "gulp-uglify": "2.0.0",
+        "lodash": "4.13.1"
+    }
 }
