@@ -11,6 +11,7 @@ Iceberg is a Starter for start your Web Projects.
 #### Installation
 ```
 $ git clone git@github.com:KevinPy/Iceberg.git
+$ cd Iceberg
 $ npm install
 $ gulp
 ```
