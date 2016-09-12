@@ -12,7 +12,7 @@ Iceberg is a Starter for start your Web Projects.
 ```
 $ git clone git@github.com:KevinPy/Iceberg.git
 $ npm install
-$ gulp start
+$ gulp
 ```
 #### Packages for Gulp
 [Gulp](https://www.npmjs.com/package/gulp) : The streaming build system<br />
