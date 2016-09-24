@@ -6,7 +6,7 @@ Iceberg is a Starter for start your Web Projects.
 **Author**: *Kevin Py*<br />
 **Website**: <https://kevinpy.com><br />
 **Iceberg Website**: <https://kevinpy.com/Projects/Iceberg><br />
-**Version**: 1.0.0
+**Version**: 1.0.1
 ***
 #### Installation
 ```
