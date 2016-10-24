@@ -1,4 +1,4 @@
-![Iceberg logo](https://kevinpy.com/Projects/Iceberg/iceberg_logo.png)
+![Iceberg logo](https://kevinpy.com/Projects/Iceberg/out/iceberg-logo.png)
 # Iceberg
 ### Front-End Boilerplate
 Iceberg is a Starter for start your Web Projects.
