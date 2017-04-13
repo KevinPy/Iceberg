@@ -1,0 +1,15 @@
+{
+  "name": "",
+  "short_name": "",
+  "description": "",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "start_url": "/",
+  "icons": {
+    "src": "assets/images/icon.png",
+    "type": "image/png",
+    "sizes": "128x128"
+  }
+}

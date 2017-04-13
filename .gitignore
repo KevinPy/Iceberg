@@ -1,2 +1,7 @@
-# Keep .gitkeep files in folders
-!.gitkeep
+node_modules
+dist
+npm-debug.log
+.idea
+.vscode
+.DS_Store
+!.gitKeep
