@@ -28,6 +28,15 @@ module.exports = {
                     fallback: 'style-loader',
                     use: ['css-loader', 'sass-loader']
                 })
+            },
+            {
+                test: /\.(ico|jpg|jpeg|png|gif|svg)(\?.*)?$/,
+                loader: 'url',
+                query: {
+                    publicPath: '../../',
+                    name: 'assets/images/[name].[ext]',
+                    limit: 10000
+                }
             }
         ]
     },
@@ -40,7 +49,12 @@ module.exports = {
         }),
         new webpack.HotModuleReplacementPlugin(),
         new webpack.NamedModulesPlugin(),
-        new CopyWebpackPlugin([{from: './src/manifest.json'}])
+        new CopyWebpackPlugin([{from: './src/manifest.json'}]),
+        new CopyWebpackPlugin([{
+            context: './src/assets/images',
+            from: '**/*',
+            to: 'assets/images'
+        }])
     ],
     devServer: {
         compress: true,
