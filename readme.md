@@ -35,6 +35,5 @@ $ npm install
 ```
 #### TODO
 - Tests
-- ESLint
 - Separate Webpack Dev/Prod
 - Router
