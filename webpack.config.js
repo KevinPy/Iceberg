@@ -22,6 +22,11 @@ module.exports = {
                 }
             },
             {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                loader: "eslint-loader"
+            },
+            {
                 test: /\.scss$/,
                 exclude: /node_modules/,
                 use: ExtractTextPlugin.extract({
