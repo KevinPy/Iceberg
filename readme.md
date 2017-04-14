@@ -37,7 +37,4 @@ $ npm install
 - Tests
 - ESLint
 - Separate Webpack Dev/Prod
-<<<<<<< HEAD
 - Router
-=======
->>>>>>> origin/master
