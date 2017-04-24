@@ -9,7 +9,7 @@ Iceberg is built with React + Babel + Webpack. It's a solution for start your pr
 ***
 **Author**: *Kevin Py*<br />
 **Website**: <https://kevinpy.com><br />
-**Version**: 2.0.1
+**Version**: 2.1.0
 ***
 #### Installation
 ```
@@ -30,11 +30,12 @@ $ npm install
     |- /js
         |- components
             |- App.jsx
+            |- NotFound.jsx
     |- index.html
     |- index.js
 ```
 #### TODO
-- Tests
-- ESLint
-- Separate Webpack Dev/Prod
-- Router
+[ ] Tests
+[x] ESLint
+[ ] Separate Webpack Dev/Prod
+[x] Router
