@@ -31,13 +31,13 @@ module.exports = {
                 exclude: /node_modules/,
                 use: ExtractTextPlugin.extract({
                     fallback: 'style-loader',
-                    use: ['css-loader', 'sass-loader']
+                    use: ['css-loader', 'resolve-url-loader', 'sass-loader?sourceMap']
                 })
             },
             {
                 test: /\.(ico|jpg|jpeg|png|gif|svg)(\?.*)?$/,
-                loader: 'url',
-                query: {
+                loader: 'file-loader',
+                options: {
                     publicPath: '../../',
                     name: 'assets/images/[name].[ext]',
                     limit: 10000
