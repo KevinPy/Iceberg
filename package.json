@@ -1,7 +1,7 @@
 {
   "name": "iceberg-bp",
   "description": "Front-End Starter for your Web Projects with React, Webpack, Babel and SASS",
-  "version": "2.2.0",
+  "version": "2.1.2",
   "author": "Kevin Py",
   "license": "MIT",
   "repository": {
