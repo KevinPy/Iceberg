@@ -20,6 +20,7 @@ $ npm install
 #### Scripts
 `npm start` : Launch `webpack-dev-server` with Hot Module Replacement - http://localhost:8080<br />
 `npm run build` : Compile **/src** folder and create **/dist** folder<br />
+`npm run test` : Launch tests<br />
 #### Structure
 ```
 /src
@@ -35,7 +36,7 @@ $ npm install
     |- index.js
 ```
 #### TODO
-[ ] Tests<br />
+[x] Tests<br />
 [x] ESLint<br />
 [ ] Separate Webpack Dev/Prod<br />
 [x] Router
