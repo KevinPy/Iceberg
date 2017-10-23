@@ -5,6 +5,10 @@ node_js:
 cache:
   directories:
   - node_modules
+branches:
+  only:
+  - master
+  - develop
 before_script:
   - npm install
 script:
