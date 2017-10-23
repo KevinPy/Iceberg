@@ -1,7 +1,7 @@
 ![Iceberg logo](https://kevinpy.com/Projects/Iceberg/out/iceberg-logo.png)
 # Iceberg
 ### Front-End Boilerplate
-Iceberg is built with React + Babel + Webpack. It's a solution for start your projects.<br />
+Iceberg is built with React + Babel + Webpack + SASS. It's a solution for start your projects.<br />
 <br />
 [![Version](https://img.shields.io/github/release/kevinpy/Iceberg.svg)](https://github.com/kevinpy/Iceberg/releases)
 [![dependencies Status](https://david-dm.org/kevinpy/iceberg/status.svg)](https://david-dm.org/kevinpy/iceberg)
