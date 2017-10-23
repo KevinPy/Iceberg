@@ -6,10 +6,10 @@ import Adapter from 'enzyme-adapter-react-16';
 configure({ adapter: new Adapter() });
 
 test('Get h1 content', () => {
-    const wrapper = shallow(
-        <NotFound/>
-    );
-    const expected = wrapper.find('h1').text();
-    const result = 'Page not found !';
-    expect(expected).toBe(result);
+  const wrapper = shallow(
+    <NotFound/>
+  );
+  const expected = wrapper.find('h1').text();
+  const result = 'Page not found !';
+  expect(expected).toBe(result);
 });

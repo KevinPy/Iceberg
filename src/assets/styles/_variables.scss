@@ -9,73 +9,67 @@
 
 ====================================== */
 
-
 /* ======================================
 1 - Typography
 ====================================== */
 
-$base_font_size:      1.4rem !default;
-$base_line_height:    1.5 !default;
-
+$base_font_size: 1.4rem !default;
+$base_line_height: 1.5 !default;
 
 /* ======================================
 2 - Headings
 ====================================== */
 
-$h1_font_size:           3.6rem !default;
-$h2_font_size:           3.2rem !default;
-$h3_font_size:           2.8rem !default;
-$h4_font_size:           3.4rem !default;
-$h5_font_size:           2rem   !default;
-$h6_font_size:           1.6rem !default;
+$h1_font_size: 3.6rem !default;
+$h2_font_size: 3.2rem !default;
+$h3_font_size: 2.8rem !default;
+$h4_font_size: 3.4rem !default;
+$h5_font_size: 2rem !default;
+$h6_font_size: 1.6rem !default;
 
-$heading_line_height:    1.25 !default;
-
+$heading_line_height: 1.25 !default;
 
 /* ======================================
 3 - Colors
 ====================================== */
 
-$base_color:               #000 !default;
-$alpha_color:              #000 !default;
-$beta_color:               #000 !default;
+$base_color: #000 !default;
+$alpha_color: #000 !default;
+$beta_color: #000 !default;
 
-$base_color_link:            #1a0dab !default;
-$base_color_link_hover:      #888    !default;
-$base_color_link_visited:    #609    !default;
-
+$base_color_link: #1a0dab !default;
+$base_color_link_hover: #888 !default;
+$base_color_link_visited: #609 !default;
 
 /* ======================================
 4 - Backgrounds
 ====================================== */
 
-$base_background:     #fff !default;
-$alpha_background:    #fff !default;
-$beta_background:     #fff !default;
-
+$base_background: #fff !default;
+$alpha_background: #fff !default;
+$beta_background: #fff !default;
 
 /* ======================================
 5 - Grid
 ====================================== */
 
-$grid_gutter:    2rem !default;
-$grid_number:    12   !default;
-$grid_left:      2    !default;
-$grid_right:     1    !default;
-
+$grid_gutter: 2rem !default;
+$grid_number: 12 !default;
+$grid_left: 2 !default;
+$grid_right: 1 !default;
 
 /* ======================================
 6 - Breakpoints
 ====================================== */
 
 $breakpoints: (
-        min_screen:        320px,
-        small_screen:      480px,
-        minus_screen:      640px,
-        medium_screen:     768px,
-        default_screen:    960px,
-        large_screen:      1024px,
-        plus_screen:       1140px,
-        big_screen:        1280px,
-        max_screen:        1920px
+  min_screen: 320px,
+  small_screen: 480px,
+  minus_screen: 640px,
+  medium_screen: 768px,
+  default_screen: 960px,
+  large_screen: 1024px,
+  plus_screen: 1140px,
+  big_screen: 1280px,
+  max_screen: 1920px
 );
