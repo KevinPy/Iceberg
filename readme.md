@@ -39,4 +39,5 @@ $ npm install
 [x] Tests<br />
 [x] ESLint<br />
 [ ] Separate Webpack Dev/Prod<br />
+[ ] CI<br />
 [x] Router
