@@ -14,7 +14,7 @@ Iceberg is built with React + Babel + Webpack + SASS. It's a solution for start 
 ***
 #### Installation
 ```
-$ git clone git@github.com:KevinPy/Iceberg.git
+$ git clone https://github.com/KevinPy/Iceberg.git
 $ cd Iceberg
 $ npm install
 ```
@@ -22,20 +22,7 @@ $ npm install
 `npm start` : Launch `webpack-dev-server` with Hot Module Replacement - http://localhost:8080<br />
 `npm run build` : Compile **/src** folder and create **/dist** folder<br />
 `npm run test` : Launch tests<br />
-#### Structure
-```
-/src
-    |- /assets
-        |- /images
-        |- /styles
-            |- /main.scss
-    |- /js
-        |- components
-            |- App.jsx
-            |- NotFound.jsx
-    |- index.html
-    |- index.js
-```
+
 #### TODO
 [x] Tests<br />
 [x] ESLint<br />

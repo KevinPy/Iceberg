@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import './App.scss';
 
 export default class App extends Component {
   render() {
     return (
-      <h1>It's Works !</h1>
+      <div className="App">
+        <h1>Welcome to Iceberg !</h1>
+      </div>
     );
   }
 }

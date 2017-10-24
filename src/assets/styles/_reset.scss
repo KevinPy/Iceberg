@@ -153,26 +153,25 @@ abbr[title] {
   cursor: help;
 }
 
+// 50%
 .smaller {
   font-size: $base_font_size * .5;
 }
 
-// 50%
+// 80%
 .small {
   font-size: $base_font_size * .8;
 }
 
-// 80%
+// 120%
 .big {
   font-size: $base_font_size * 1.2;
 }
 
-// 120%
+// 150%
 .bigger {
   font-size: $base_font_size * 1.5;
 }
-
-// 150%
 
 /* ======================================
 3 - Styling
