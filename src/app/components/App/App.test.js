@@ -1,5 +1,5 @@
 import React from 'react';
-import App from '../../src/js/components/App';
+import App from './App';
 import { shallow, configure } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 
@@ -10,6 +10,6 @@ test('Get h1 content', () => {
     <App/>
   );
   const expected = wrapper.find('h1').text();
-  const result = 'It\'s Works !';
+  const result = 'Welcome to Iceberg !';
   expect(expected).toBe(result);
 });
