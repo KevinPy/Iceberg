@@ -57,14 +57,23 @@
   },
   "jest": {
     "collectCoverage": true,
-    "coverageReporters": ["lcov"],
-    "coveragePathIgnorePatterns": ["<rootDir>/build/", "<rootDir>/node_modules/"],
+    "coverageReporters": [
+      "lcov"
+    ],
+    "coveragePathIgnorePatterns": [
+      "<rootDir>/build/",
+      "<rootDir>/node_modules/"
+    ],
+    "moduleDirectories": [
+      "node_modules"
+    ],
     "moduleNameMapper": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/src/app/js/fileTransform.js",
       "\\.(css|scss)$": "identity-obj-proxy"
     },
     "testPathIgnorePatterns": [
       "<rootDir>/node_modules/"
-    ]
+    ],
+    "testURL": "http://localhost:8080"
   }
 }
