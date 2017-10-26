@@ -52,9 +52,13 @@
   "scripts": {
     "build": "webpack -p",
     "start": "webpack-dev-server",
-    "test": "jest --setupTestFrameworkScriptFile=raf/polyfill"
+    "test": "jest --setupTestFrameworkScriptFile=raf/polyfill",
+    "test:ci": "jest --setupTestFrameworkScriptFile=raf/polyfill --ci"
   },
   "jest": {
+    "collectCoverage": true,
+    "coverageReporters": ["lcov"],
+    "coveragePathIgnorePatterns": ["<rootDir>/build/", "<rootDir>/node_modules/"],
     "moduleNameMapper": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/src/app/js/fileTransform.js",
       "\\.(css|scss)$": "identity-obj-proxy"
