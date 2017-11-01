@@ -73,5 +73,9 @@
       "<rootDir>/node_modules/"
     ],
     "testURL": "http://localhost:8080"
+  },
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
   }
 }

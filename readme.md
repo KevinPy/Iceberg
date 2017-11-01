@@ -9,6 +9,8 @@ Iceberg is built with React + Babel + Webpack + SASS. It's a solution for start 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/1447c0dff5fd49fe93e9c2141ded90e1)](https://www.codacy.com/app/pykevin/Iceberg?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=KevinPy/Iceberg&amp;utm_campaign=Badge_Grade)
 [![Build Status](https://travis-ci.org/KevinPy/Iceberg.svg?branch=master)](https://travis-ci.org/KevinPy/Iceberg)
 ***
+Now with CLI: https://github.com/KevinPy/Iceberg-CLI
+***
 **Author**: *Kevin Py*<br />
 **Website**: <https://kevinpy.com>
 ***
