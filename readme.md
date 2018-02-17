@@ -24,10 +24,9 @@ $ npm install
 `npm start` : Launch `webpack-dev-server` with Hot Module Replacement - http://localhost:8080<br />
 `npm run build` : Compile **/src** folder and create **/dist** folder<br />
 `npm run test` : Launch tests<br />
+`npm run test:ci` : Launch code coverage<br />
 
-#### TODO
-[x] Tests<br />
-[x] ESLint<br />
-[ ] Separate Webpack Dev/Prod<br />
-[x] CI<br />
-[x] Router
+#### Coverage
+You can generate the code coverage file with Jest and Istanbul.<br />
+Launch `npm run test:ci`<br />
+Go to `/dir_path/coverage/lcov-report/index.html`
