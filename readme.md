@@ -23,6 +23,7 @@ $ npm install
 #### Scripts
 `npm start` : Launch `webpack-dev-server` with Hot Module Replacement - http://localhost:8080<br />
 `npm run build` : Compile **/src** folder and create **/dist** folder<br />
+`npm run build:production` : Compile **/src** folder and create **/dist** folder with the `production` environment<br />
 `npm run test` : Launch tests<br />
 `npm run test:ci` : Launch code coverage<br />
 

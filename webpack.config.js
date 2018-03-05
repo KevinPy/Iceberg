@@ -12,23 +12,23 @@ module.exports = {
   },
   devtool: 'source-map',
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.(js|jsx)$/,
-        loader: 'babel-loader',
-        exclude: /node_modules/,
-        query: {
-          presets: ['es2015', 'react']
-        }
-      },
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        loader: 'eslint-loader'
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['es2015', 'react']
+          }
+        },
+        exclude: /node_modules/
       },
       {
         test: /\.css$/,
-        loader: 'style-loader!css-loader'
+        use: [
+          'style-loader',
+          'css-loader'
+        ]
       },
       {
         test: /\.scss$/,
@@ -40,18 +40,32 @@ module.exports = {
       },
       {
         test: /\.(ico|jpg|jpeg|png|gif|svg)(\?.*)?$/,
-        loader: 'file-loader',
-        options: {
-          publicPath: '../../',
-          name: 'assets/images/[name].[ext]',
-          limit: 10000
-        }
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              publicPath: '../../',
+              name: 'assets/images/[name].[ext]',
+              limit: 10000
+            }
+          }
+        ]
+      },
+      {
+        test: /\.html$/,
+        use: [
+          {
+            loader: 'html-loader',
+            options: { minimize: true }
+          }
+        ]
       }
     ]
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html'
+      template: './src/index.html',
+      filename: './index.html'
     }),
     new ExtractTextPlugin({
       filename: 'assets/styles/main.css'
