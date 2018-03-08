@@ -12,12 +12,20 @@
     "url": "https://github.com/KevinPy/Iceberg/issues"
   },
   "dependencies": {
+    "history": "^4.7.2",
     "node-sass": "^4.7.2",
     "normalize.css": "^8.0.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-router-dom": "^4.1.1",
-    "tapable": "^1.0.0"
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "next",
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^0.16.0",
+    "redux-thunk": "^2.2.0"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
@@ -53,7 +61,7 @@
   "scripts": {
     "build": "webpack -p --mode development",
     "build:production": "webpack -p --mode production",
-    "start": "webpack-dev-server --mode development --open",
+    "start": "webpack-dev-server --mode development",
     "test": "jest --setupTestFrameworkScriptFile=raf/polyfill",
     "test:ci": "jest --setupTestFrameworkScriptFile=raf/polyfill --ci"
   },
